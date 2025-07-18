@@ -1,0 +1,46 @@
+[ 2025-07-16 21:59:23,273 ] 34 root - INFO - Training Pipeline started
+[ 2025-07-16 21:59:23,273 ] 12 root - INFO - Starting data ingestion...
+[ 2025-07-16 21:59:23,273 ] 20 root - INFO - Entered the data ingestion method or component
+[ 2025-07-16 21:59:32,057 ] 24 root - INFO - Read the dataset as dataframe
+[ 2025-07-16 21:59:51,164 ] 30 root - INFO - Train test split initiated
+[ 2025-07-16 22:00:09,807 ] 36 root - INFO - Ingestion of the data is completed
+[ 2025-07-16 22:00:09,852 ] 15 root - INFO - Data ingested: train at artifacts\train.csv, test at artifacts\test.csv
+[ 2025-07-16 22:00:09,853 ] 17 root - INFO - Starting data transformation...
+[ 2025-07-16 22:00:17,929 ] 74 root - INFO - Read train and test data completed
+[ 2025-07-16 22:00:17,930 ] 56 root - INFO - Numerical columns: ['resume_length', 'TotalWorkingYears', 'MonthlyIncome', 'WorkLifeBalance']
+[ 2025-07-16 22:00:17,930 ] 57 root - INFO - Categorical columns: ['category', 'Education', 'Gender', 'required_experience', 'required_education', 'JobRole']
+[ 2025-07-16 22:00:17,961 ] 97 root - INFO - Applying preprocessing object on training and testing dataframe
+[ 2025-07-16 22:00:18,749 ] 130 root - INFO - Saved preprocessing object successfully
+[ 2025-07-16 22:00:18,791 ] 20 root - INFO - Data transformation completed
+[ 2025-07-16 22:00:18,791 ] 22 root - INFO - Starting model training...
+[ 2025-07-16 22:00:18,792 ] 20 root - INFO - Models directory ensured at: C:\PremaJirale\models
+[ 2025-07-16 22:00:18,792 ] 46 root - INFO - Splitting training and test input data
+[ 2025-07-16 22:00:18,792 ] 58 root - INFO - Training Random Forest for fraud detection
+[ 2025-07-16 22:00:29,320 ] 39 root - INFO - Fraud Detection Model Accuracy: 0.9587
+[ 2025-07-16 22:00:29,320 ] 40 root - INFO - Fraud Detection Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.96      1.00      0.98     19125
+         1.0       0.89      0.06      0.12       875
+
+    accuracy                           0.96     20000
+   macro avg       0.92      0.53      0.55     20000
+weighted avg       0.96      0.96      0.94     20000
+
+[ 2025-07-16 22:00:29,320 ] 69 root - INFO - Training Decision Tree for fitness detection
+[ 2025-07-16 22:00:30,081 ] 39 root - INFO - Fitness Detection Model Accuracy: 0.8948
+[ 2025-07-16 22:00:30,081 ] 40 root - INFO - Fitness Detection Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.99      0.94     16814
+         1.0       0.87      0.40      0.55      3186
+
+    accuracy                           0.89     20000
+   macro avg       0.88      0.69      0.74     20000
+weighted avg       0.89      0.89      0.88     20000
+
+[ 2025-07-16 22:00:30,092 ] 27 root - INFO - Model saved successfully at: models\fraud_model.pkl
+[ 2025-07-16 22:00:30,093 ] 27 root - INFO - Model saved successfully at: models\fitness_model.pkl
+[ 2025-07-16 22:00:30,093 ] 82 root - INFO - Model training and saving completed successfully
+[ 2025-07-16 22:00:30,094 ] 25 root - INFO - Model training completed. Models saved at models\fraud_model.pkl and models\fitness_model.pkl
+[ 2025-07-16 22:00:30,100 ] 39 root - INFO - Training Pipeline finished

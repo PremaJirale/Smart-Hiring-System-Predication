@@ -1,0 +1,3 @@
+[ 2025-07-16 22:34:50,293 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2025-07-16 22:34:50,306 ] 187 werkzeug - INFO -  * Debugger PIN: 135-647-460
+[ 2025-07-16 22:35:24,025 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Jul/2025 22:35:24] "GET / HTTP/1.1" 200 -

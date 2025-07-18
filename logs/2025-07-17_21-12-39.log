@@ -1,0 +1,119 @@
+[2025-07-17 21:23:57,340] INFO - Raw input data:
+                      location required_experience required_education  ... TotalWorkingYears MonthlyIncome WorkLifeBalance
+0  AE, DU, Dubai Internet City    Mid-Senior level    Master's Degree  ...                 9         45000               3
+
+[1 rows x 15 columns]
+[2025-07-17 21:23:57,381] INFO - Transformed input for prediction: [ 1.13814979 -0.28776989  8.17461837  0.34517985  0.          0.
+  0.          0.          0.          5.01250461  0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  2.24883075  0.          0.          0.          0.          0.
+  0.          2.12584042  0.          0.          0.          0.
+  0.          5.08034207  0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          2.51053458  0.          0.        ]
+[2025-07-17 21:23:57,394] INFO - Fraud prediction: [0.]
+[2025-07-17 21:23:57,395] INFO - Fitness prediction: 0.0
+[2025-07-17 21:24:00,225] INFO - Raw input data:
+                      location required_experience required_education  ... TotalWorkingYears MonthlyIncome WorkLifeBalance
+0  AE, DU, Dubai Internet City    Mid-Senior level    Master's Degree  ...                 9         45000               3
+
+[1 rows x 15 columns]
+[2025-07-17 21:24:00,296] INFO - Transformed input for prediction: [ 1.13814979 -0.28776989  8.17461837  0.34517985  0.          0.
+  0.          0.          0.          5.01250461  0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  2.24883075  0.          0.          0.          0.          0.
+  0.          2.12584042  0.          0.          0.          0.
+  0.          5.08034207  0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          2.51053458  0.          0.        ]
+[2025-07-17 21:24:00,308] INFO - Fraud prediction: [0.]
+[2025-07-17 21:24:00,309] INFO - Fitness prediction: 0.0
+[2025-07-17 21:24:17,806] INFO - Raw input data:
+  location required_experience required_education                    job_title job_description  ... Education  Gender  TotalWorkingYears MonthlyIncome WorkLifeBalance
+0   AE, ,            Associate   Associate Degree     Piping Material Engineer                  ...         1  Female                  2             0               3
+
+[1 rows x 15 columns]
+[2025-07-17 21:24:17,845] INFO - Transformed input for prediction: [ 0.11996896 -1.18682    -1.37811058  0.34517985  0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.        ]
+[2025-07-17 21:24:17,864] INFO - Fraud prediction: [0.]
+[2025-07-17 21:24:17,867] INFO - Fitness prediction: 0.0
+[2025-07-17 21:25:57,255] INFO - Raw input data:
+           location required_experience required_education           job_title  ...  Gender TotalWorkingYears MonthlyIncome  WorkLifeBalance
+0  AE, AZ, Abudhabi            Director    Master's Degree   Accounting Clerk   ...  Female                 7         47000                3
+
+[1 rows x 15 columns]
+[2025-07-17 21:25:57,290] INFO - Transformed input for prediction: [ 0.60378538 -0.54464135  8.5991841   0.34517985  0.          0.
+  0.          0.          0.          5.01250461  0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          2.04875014
+  0.          0.          0.          5.38148249  0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          5.08034207  0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          2.51053458  0.          0.        ]
+[2025-07-17 21:25:57,303] INFO - Fraud prediction: [0.]
+[2025-07-17 21:25:57,304] INFO - Fitness prediction: 0.0
+[2025-07-17 21:26:44,818] INFO - Raw input data:
+                      location required_experience required_education  ... TotalWorkingYears MonthlyIncome WorkLifeBalance
+0  AE, DU, Dubai Internet City    Mid-Senior level    Master's Degree  ...                 9         45000               3
+
+[1 rows x 15 columns]
+[2025-07-17 21:26:44,858] INFO - Transformed input for prediction: [ 1.13814979 -0.28776989  8.17461837  0.34517985  0.          0.
+  0.          0.          0.          5.01250461  0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  2.24883075  0.          0.          0.          0.          0.
+  0.          2.12584042  0.          0.          0.          0.
+  0.          5.08034207  0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          2.51053458  0.          0.        ]
+[2025-07-17 21:26:44,872] INFO - Fraud prediction: [0.]
+[2025-07-17 21:26:44,872] INFO - Fitness prediction: 0.0
+[2025-07-17 21:26:51,294] INFO - Raw input data:
+                      location required_experience required_education  ... TotalWorkingYears MonthlyIncome WorkLifeBalance
+0  AE, DU, Dubai Internet City    Mid-Senior level    Master's Degree  ...                 9         45000               3
+
+[1 rows x 15 columns]
+[2025-07-17 21:26:51,376] INFO - Transformed input for prediction: [ 1.13814979 -0.28776989  8.17461837  0.34517985  0.          0.
+  0.          0.          0.          5.01250461  0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  2.24883075  0.          0.          0.          0.          0.
+  0.          2.12584042  0.          0.          0.          0.
+  0.          5.08034207  0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          2.51053458  0.          0.        ]
+[2025-07-17 21:26:51,399] INFO - Fraud prediction: [0.]
+[2025-07-17 21:26:51,400] INFO - Fitness prediction: 0.0
+[2025-07-17 21:26:54,078] INFO - Raw input data:
+                      location required_experience required_education  ... TotalWorkingYears MonthlyIncome WorkLifeBalance
+0  AE, DU, Dubai Internet City    Mid-Senior level    Master's Degree  ...                 9         45000               3
+
+[1 rows x 15 columns]
+[2025-07-17 21:26:54,108] INFO - Transformed input for prediction: [ 1.13814979 -0.28776989  8.17461837  0.34517985  0.          0.
+  0.          0.          0.          5.01250461  0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  2.24883075  0.          0.          0.          0.          0.
+  0.          2.12584042  0.          0.          0.          0.
+  0.          5.08034207  0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          2.51053458  0.          0.        ]
+[2025-07-17 21:26:54,121] INFO - Fraud prediction: [0.]
+[2025-07-17 21:26:54,122] INFO - Fitness prediction: 0.0

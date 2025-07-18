@@ -1,0 +1,69 @@
+[2025-07-17 12:47:58,776] INFO - Training pipeline execution started...
+[2025-07-17 12:47:58,777] INFO - === Pipeline started ===
+[2025-07-17 12:47:58,777] INFO - Starting data ingestion...
+[2025-07-17 12:47:58,777] INFO - Entered the data ingestion method or component
+[2025-07-17 12:48:09,168] INFO - Read the dataset as dataframe
+[2025-07-17 12:48:32,291] INFO - Train test split initiated
+[2025-07-17 12:48:56,407] INFO - Ingestion of the data is completed
+[2025-07-17 12:48:56,465] INFO - Data ingested. Train: artifacts\train.csv, Test: artifacts\test.csv
+[2025-07-17 12:48:56,466] INFO - Starting data transformation...
+[2025-07-17 12:49:06,408] INFO - Read train and test data completed
+[2025-07-17 12:49:06,409] INFO - Numerical columns: ['resume_length', 'TotalWorkingYears', 'MonthlyIncome', 'WorkLifeBalance']
+[2025-07-17 12:49:06,409] INFO - Categorical columns: ['category', 'Education', 'Gender', 'required_experience', 'required_education', 'JobRole']
+[2025-07-17 12:49:06,440] INFO - Applying preprocessing object on training and testing dataframe
+[2025-07-17 12:49:07,297] INFO - Saved preprocessing object successfully
+[2025-07-17 12:49:07,338] INFO - Data transformation completed.
+[2025-07-17 12:49:07,338] INFO - Starting model training and evaluation...
+[2025-07-17 12:49:07,339] INFO - Splitting features and targets from train and test arrays...
+[2025-07-17 12:49:07,339] INFO - Training fraud detection models...
+[2025-07-17 12:49:20,686] INFO - RandomForest Accuracy: 0.9587
+[2025-07-17 12:49:20,686] INFO - RandomForest Report:
+              precision    recall  f1-score   support
+
+         0.0       0.96      1.00      0.98     19125
+         1.0       0.89      0.06      0.12       875
+
+    accuracy                           0.96     20000
+   macro avg       0.92      0.53      0.55     20000
+weighted avg       0.96      0.96      0.94     20000
+
+[2025-07-17 12:49:21,984] INFO - DecisionTree Accuracy: 0.9564
+[2025-07-17 12:49:21,984] INFO - DecisionTree Report:
+              precision    recall  f1-score   support
+
+         0.0       0.96      1.00      0.98     19125
+         1.0       0.51      0.07      0.12       875
+
+    accuracy                           0.96     20000
+   macro avg       0.74      0.53      0.55     20000
+weighted avg       0.94      0.96      0.94     20000
+
+[2025-07-17 12:49:21,985] INFO - Best Model: RandomForest with Accuracy: 0.9587
+[2025-07-17 12:49:22,001] INFO - Training fitness detection models...
+[2025-07-17 12:49:23,050] INFO - DecisionTree Accuracy: 0.8948
+[2025-07-17 12:49:23,050] INFO - DecisionTree Report:
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.99      0.94     16814
+         1.0       0.87      0.40      0.55      3186
+
+    accuracy                           0.89     20000
+   macro avg       0.88      0.69      0.74     20000
+weighted avg       0.89      0.89      0.88     20000
+
+[2025-07-17 12:49:34,227] INFO - RandomForest Accuracy: 0.8631
+[2025-07-17 12:49:34,227] INFO - RandomForest Report:
+              precision    recall  f1-score   support
+
+         0.0       0.86      1.00      0.92     16814
+         1.0       0.92      0.15      0.26      3186
+
+    accuracy                           0.86     20000
+   macro avg       0.89      0.58      0.59     20000
+weighted avg       0.87      0.86      0.82     20000
+
+[2025-07-17 12:49:34,227] INFO - Best Model: DecisionTree with Accuracy: 0.8948
+[2025-07-17 12:49:34,228] INFO - Both models trained and saved successfully.
+[2025-07-17 12:49:34,229] INFO - Model training completed.
+[2025-07-17 12:49:34,244] INFO - Models saved at: artifacts\fraud_model.pkl, artifacts\fitness_model.pkl
+[2025-07-17 12:49:34,245] ERROR - Pipeline failed.

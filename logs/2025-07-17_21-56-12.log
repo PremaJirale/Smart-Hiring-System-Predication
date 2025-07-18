@@ -1,0 +1,25 @@
+[2025-07-17 21:56:12,445] INFO - === Training pipeline started ===
+[2025-07-17 21:56:12,445] INFO - Entered the data ingestion method or component
+[2025-07-17 21:56:19,038] INFO - Read the dataset into dataframe successfully
+[2025-07-17 21:56:34,193] INFO - Raw data saved at: artifacts\data.csv
+[2025-07-17 21:56:34,193] INFO - Train test split initiated
+[2025-07-17 21:56:46,620] INFO - Training data saved at: artifacts\train.csv
+[2025-07-17 21:56:49,628] INFO - Testing data saved at: artifacts\test.csv
+[2025-07-17 21:56:49,628] INFO - Ingestion of the data is completed successfully
+[2025-07-17 21:56:49,677] INFO - Data Ingested:
+Train: artifacts\train.csv
+Test: artifacts\test.csv
+[2025-07-17 21:56:56,507] INFO - Read train and test data completed
+[2025-07-17 21:56:56,507] INFO - Numerical columns: ['resume_length', 'TotalWorkingYears', 'MonthlyIncome', 'WorkLifeBalance']
+[2025-07-17 21:56:56,508] INFO - Categorical columns: ['category', 'Education', 'Gender', 'required_experience', 'required_education', 'JobRole']
+[2025-07-17 21:56:56,527] INFO - Applying preprocessing object on training and testing dataframe
+[2025-07-17 21:56:57,095] INFO - Saved preprocessing object successfully at artifacts\preprocessor.pkl
+[2025-07-17 21:56:57,131] INFO - Data Transformation completed
+[2025-07-17 21:56:57,138] INFO - Fraud label distribution:
+0.0    76521
+1.0     3479
+Name: count, dtype: int64
+[2025-07-17 21:56:57,144] INFO - Fit label distribution:
+0.0    66976
+1.0    13024
+Name: count, dtype: int64

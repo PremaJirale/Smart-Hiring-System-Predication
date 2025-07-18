@@ -1,0 +1,4 @@
+[2025-07-17 14:35:47,652] WARNING -  * Debugger is active!
+[2025-07-17 14:35:47,682] INFO -  * Debugger PIN: 135-647-460
+[2025-07-17 14:36:00,076] INFO - 127.0.0.1 - - [17/Jul/2025 14:36:00] "GET / HTTP/1.1" 200 -
+[2025-07-17 14:36:44,265] INFO -  * Detected change in 'C:\\PremaJirale\\app.py', reloading

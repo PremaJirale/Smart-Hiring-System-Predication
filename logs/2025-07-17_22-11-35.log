@@ -1,0 +1,28 @@
+[2025-07-17 22:11:57,455] INFO - Fraud model loaded successfully.
+[2025-07-17 22:11:57,458] INFO - Fitness model loaded successfully.
+[2025-07-17 22:11:57,471] INFO - Preprocessor loaded successfully.
+[2025-07-17 22:11:57,472] INFO - Input data received for prediction.
+[2025-07-17 22:11:57,499] INFO - Data transformed successfully.
+[2025-07-17 22:11:57,526] INFO - Fraud predictions: [0.]
+[2025-07-17 22:11:57,528] INFO - Fitness prediction: 0.0
+[2025-07-17 22:14:00,686] INFO - Fraud model loaded successfully.
+[2025-07-17 22:14:00,687] INFO - Fitness model loaded successfully.
+[2025-07-17 22:14:00,688] INFO - Preprocessor loaded successfully.
+[2025-07-17 22:14:00,689] INFO - Input data received for prediction.
+[2025-07-17 22:14:00,709] INFO - Data transformed successfully.
+[2025-07-17 22:14:00,723] INFO - Fraud predictions: [0.]
+[2025-07-17 22:14:00,731] INFO - Fitness prediction: 0.0
+[2025-07-17 22:17:06,404] INFO - Fraud model loaded successfully.
+[2025-07-17 22:17:06,405] INFO - Fitness model loaded successfully.
+[2025-07-17 22:17:06,406] INFO - Preprocessor loaded successfully.
+[2025-07-17 22:17:06,406] INFO - Input data received for prediction.
+[2025-07-17 22:17:06,417] INFO - Data transformed successfully.
+[2025-07-17 22:17:06,433] INFO - Fraud predictions: [0.]
+[2025-07-17 22:17:06,434] INFO - Fitness prediction: 1.0
+[2025-07-17 22:18:43,250] INFO - Fraud model loaded successfully.
+[2025-07-17 22:18:43,267] INFO - Fitness model loaded successfully.
+[2025-07-17 22:18:43,271] INFO - Preprocessor loaded successfully.
+[2025-07-17 22:18:43,272] INFO - Input data received for prediction.
+[2025-07-17 22:18:43,290] INFO - Data transformed successfully.
+[2025-07-17 22:18:43,307] INFO - Fraud predictions: [0.]
+[2025-07-17 22:18:43,309] INFO - Fitness prediction: 0.0

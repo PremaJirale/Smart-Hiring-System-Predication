@@ -1,0 +1,7 @@
+[2025-07-18 11:00:51,573] INFO - Training pipeline execution started...
+[2025-07-18 11:00:51,573] INFO - === Pipeline started ===
+[2025-07-18 11:00:51,575] INFO - Starting data ingestion...
+[2025-07-18 11:00:51,575] INFO - Entered the data ingestion method or component
+[2025-07-18 11:00:58,948] INFO - Read the dataset into dataframe successfully
+[2025-07-18 11:01:14,132] INFO - Raw data saved at: artifacts\data.csv
+[2025-07-18 11:04:50,667] INFO - Train test split initiated

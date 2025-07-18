@@ -1,0 +1,7 @@
+[2025-07-18 14:49:19,124] INFO - Fraud model loaded successfully.
+[2025-07-18 14:49:19,128] INFO - Fitness model loaded successfully.
+[2025-07-18 14:49:19,154] INFO - Preprocessor loaded successfully.
+[2025-07-18 14:49:19,155] INFO - Input data received for prediction.
+[2025-07-18 14:49:19,197] INFO - Data transformed successfully.
+[2025-07-18 14:49:19,228] INFO - Fraud predictions: [0.]
+[2025-07-18 14:49:19,230] INFO - Fitness prediction: 0.0

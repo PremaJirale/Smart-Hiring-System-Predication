@@ -1,0 +1,13 @@
+[ 2025-07-16 18:00:35,691 ] 34 root - INFO - Training Pipeline started
+[ 2025-07-16 18:00:35,691 ] 12 root - INFO - Starting data ingestion...
+[ 2025-07-16 18:00:35,691 ] 20 root - INFO - Entered the data ingestion method or component
+[ 2025-07-16 18:00:42,447 ] 24 root - INFO - Read the dataset as dataframe
+[ 2025-07-16 18:00:58,722 ] 30 root - INFO - Train test split initiated
+[ 2025-07-16 18:01:14,119 ] 36 root - INFO - Ingestion of the data is completed
+[ 2025-07-16 18:01:14,166 ] 15 root - INFO - Data ingested: train at artifacts\train.csv, test at artifacts\test.csv
+[ 2025-07-16 18:01:14,226 ] 17 root - INFO - Starting data transformation...
+[ 2025-07-16 18:01:21,529 ] 76 root - INFO - Read train and test data completed
+[ 2025-07-16 18:01:21,529 ] 56 root - INFO - Numerical columns: ['resume_length', 'TotalWorkingYears', 'MonthlyIncome', 'WorkLifeBalance']
+[ 2025-07-16 18:01:21,529 ] 57 root - INFO - Categorical columns: ['category', 'Education', 'Gender', 'required_experience', 'required_education', 'JobRole']
+[ 2025-07-16 18:01:21,549 ] 93 root - INFO - Applying preprocessing object on training and testing dataframe
+[ 2025-07-16 18:01:22,014 ] 30 root - ERROR - Error in training pipeline: Error occurred in python script name [C:\PremaJirale\src\component\data_transformation.py] line number [98] error message [all the input array dimensions except for the concatenation axis must match exactly, but along dimension 0, the array at index 0 has size 1 and the array at index 1 has size 80000]

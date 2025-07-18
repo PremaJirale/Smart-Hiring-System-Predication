@@ -1,0 +1,13 @@
+[ 2025-07-16 18:25:28,890 ] 34 root - INFO - Training Pipeline started
+[ 2025-07-16 18:25:28,890 ] 12 root - INFO - Starting data ingestion...
+[ 2025-07-16 18:25:28,890 ] 20 root - INFO - Entered the data ingestion method or component
+[ 2025-07-16 18:25:35,123 ] 24 root - INFO - Read the dataset as dataframe
+[ 2025-07-16 18:25:48,560 ] 30 root - INFO - Train test split initiated
+[ 2025-07-16 18:26:02,252 ] 36 root - INFO - Ingestion of the data is completed
+[ 2025-07-16 18:26:02,297 ] 15 root - INFO - Data ingested: train at artifacts\train.csv, test at artifacts\test.csv
+[ 2025-07-16 18:26:02,298 ] 17 root - INFO - Starting data transformation...
+[ 2025-07-16 18:26:08,583 ] 69 root - INFO - Read train and test data completed
+[ 2025-07-16 18:26:08,583 ] 51 root - INFO - Numerical columns: ['resume_length', 'TotalWorkingYears', 'MonthlyIncome', 'WorkLifeBalance']
+[ 2025-07-16 18:26:08,583 ] 52 root - INFO - Categorical columns: ['category', 'Education', 'Gender', 'required_experience', 'required_education', 'JobRole']
+[ 2025-07-16 18:26:08,601 ] 85 root - INFO - Applying preprocessing object on training and testing dataframe
+[ 2025-07-16 18:26:09,081 ] 30 root - ERROR - Error in training pipeline: Error occurred in python script name [C:\PremaJirale\src\component\data_transformation.py] line number [91] error message [zero-dimensional arrays cannot be concatenated]

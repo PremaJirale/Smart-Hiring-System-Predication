@@ -1,0 +1,23 @@
+[2025-07-17 21:46:51,976] INFO - === Training pipeline started ===
+[2025-07-17 21:46:51,976] INFO - Entered the data ingestion method or component
+[2025-07-17 21:46:58,636] INFO - Read the dataset as dataframe
+[2025-07-17 21:47:13,698] INFO - Train test split initiated
+[2025-07-17 21:47:29,792] INFO - Ingestion of the data is completed
+[2025-07-17 21:47:29,833] INFO - Data Ingested:
+Train: artifacts\train.csv
+Test: artifacts\test.csv
+[2025-07-17 21:47:36,537] INFO - Read train and test data completed
+[2025-07-17 21:47:36,537] INFO - Numerical columns: ['resume_length', 'TotalWorkingYears', 'MonthlyIncome', 'WorkLifeBalance']
+[2025-07-17 21:47:36,537] INFO - Categorical columns: ['category', 'Education', 'Gender', 'required_experience', 'required_education', 'JobRole']
+[2025-07-17 21:47:36,558] INFO - Applying preprocessing object on training and testing dataframe
+[2025-07-17 21:47:37,127] INFO - Saved preprocessing object successfully
+[2025-07-17 21:47:37,174] INFO - Data Transformation completed
+[2025-07-17 21:47:37,179] INFO - Fraud label distribution:
+0.0    76521
+1.0     3479
+Name: count, dtype: int64
+[2025-07-17 21:47:37,185] INFO - Fit label distribution:
+0.0    66976
+1.0    13024
+Name: count, dtype: int64
+[2025-07-17 21:47:41,350] ERROR - \u274c Training pipeline failed.
